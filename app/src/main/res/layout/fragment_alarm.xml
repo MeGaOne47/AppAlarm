@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/setAlarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timePicker"
+        android:layout_alignParentStart="true"
+        android:text="Set Alarm"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/cancelAlarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timePicker"
+        android:layout_toEndOf="@id/setAlarmButton"
+        android:layout_marginStart="16dp"
+        android:text="Cancel Alarm"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/toggleAlarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timePicker"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:text="Toggle Alarm"
+        android:textSize="10sp"
+        android:layout_toEndOf="@id/cancelAlarmButton" />
+
+    <!-- Add a black divider -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/setAlarmButton"
+        android:layout_toStartOf="@id/cancelAlarmButton"
+        android:background="@android:color/black" />
+
+    <ListView
+        android:id="@+id/alarmListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setAlarmButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <!-- Button to switch to Alarm Fragment -->
+
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="382dp"
+        android:layout_height="22dp"
+        android:layout_below="@id/fragmentContainer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="66dp"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/user_details"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="26dp"
+        android:text="@string/logout" />
+
+    <Button
+        android:id="@+id/btnAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Báo thức"
+        android:onClick="onAlarmButtonClick" />
+
+    <!-- Button to switch to Timer Fragment -->
+    <Button
+        android:id="@+id/btnTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAlarm"
+        android:text="Bấm giờ"
+        android:onClick="onTimerButtonClick" />
+
+    <!-- Fragment Container -->
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnTimer" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "751305989344",
+    "project_id": "fir-user-59490",
+    "storage_bucket": "fir-user-59490.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751305989344:android:44cd752ac620a45c4b0485",
+        "android_client_info": {
+          "package_name": "com.example.appalarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751305989344-8csnho56mtvkhkjg7ofk2v84fj4beftn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC28RXZdSSRQOrMapmfxqoPqh0e6FkciTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751305989344-8csnho56mtvkhkjg7ofk2v84fj4beftn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

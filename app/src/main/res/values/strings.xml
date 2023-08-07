@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">login-regsiter-firebase</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="logout">LOGOUT</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="default_web_client_id">751305989344-8csnho56mtAvkhkjg7ofk2v84fj4beftn.apps.googleusercontent.com</string>
+</resources>
